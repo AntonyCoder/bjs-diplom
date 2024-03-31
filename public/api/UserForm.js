@@ -31,7 +31,7 @@ class UserForm {
     this.loginFormCallback(this.getData(this.loginForm));
     this.loginForm.reset();
   }
-
+ 
   registerFormAction(event) {
     event.preventDefault();
     this.registerFormCallback(this.getData(this.registerForm));
